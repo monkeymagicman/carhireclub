@@ -22,7 +22,7 @@ app.set('view engine', 'ejs');
 
 //homepage view
 app.get('/', function (req, res) {
-    res.render('homepage');
+    res.render('homepage/index');
  })
 
  //404 view
