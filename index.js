@@ -20,6 +20,10 @@ var staticPaths = {
 var app = express();
 app.set('view engine', 'ejs');
 
+//define public directory
+app.use(express.static('public'));
+
+
 //homepage view
 app.get('/', function (req, res) {
     res.render('homepage/index');
