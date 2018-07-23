@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jul 19 2018 23:43:39 GMT+0000 (UTC)  -->
-<html data-wf-page="5b34db71e1155b39c9fda43d" data-wf-site="5b34db71e1155b81fefda43c">
+
+<html>
 <head>
   <meta charset="utf-8">
   <title>cahire.club</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/layout.css" rel="stylesheet" type="text/css">
@@ -28,63 +26,9 @@
       <h2 class="header-text-container-h2">Car hire club compares 100&#x27;s of leading suppliers in 1000&#x27;s of locations</h2>
     </div>
     <div class="header-second-row">
-      <div class="header-second-row-form w-form">
-        <form id="form-car-selection" name="wf-form-car-selection" data-name="car selection" class="form w-clearfix">
-          <h3 class="form-heading">Compare car hire deals</h3><input type="text" class="form-field-location w-input" maxlength="256" autofocus="true" name="name" data-name="Name" placeholder="Pick-up Location - City, airport, station, region, district..." id="name" required=""><input type="text" class="form-field-location w-input" maxlength="256" name="email" data-name="Email" placeholder="Return Location - City, airport, station, region, district..." id="email" required="">
-          <div class="form-date-section">
-            <div class="form-date-section-item"><label class="form-date-label">Pick-up Date &amp; Time</label>
-              <div data-delay="0" class="form-date-dropdown w-dropdown">
-                <div class="dropdown-toggle w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block date">Sat 7th July</div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div>
-              <div data-delay="0" class="form-time-dropdown w-clearfix w-dropdown">
-                <div class="dropdown-toggle time w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block">10</div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div><!--
-              --><div data-delay="0" class="form-time-dropdown w-clearfix w-dropdown">
-                <div class="dropdown-toggle time w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block">00</div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div>
-            </div>
-            <div class="form-date-section-item"><label class="form-date-label">Drop-off Date &amp; Time</label>
-              <div data-delay="0" class="form-date-dropdown w-dropdown">
-                <div class="dropdown-toggle w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block date">Sat 7th July </div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div>
-              <div data-delay="0" class="form-time-dropdown w-clearfix w-dropdown">
-                <div class="dropdown-toggle time w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block">10</div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div><!--
-              --><div data-delay="0" class="form-time-dropdown w-clearfix w-dropdown">
-                <div class="dropdown-toggle time w-dropdown-toggle">
-                  <div class="w-icon-dropdown-toggle"></div>
-                  <div class="text-block">00</div>
-                </div>
-                <nav class="w-dropdown-list"><a href="#" class="w-dropdown-link">Link 1</a><a href="#" class="w-dropdown-link">Link 2</a><a href="#" class="w-dropdown-link">Link 3</a></nav>
-              </div>
-            </div>
-          </div><input type="submit" value="Search" data-wait="Please wait..." class="form-submit-button w-button"></form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
+      <div class="header-second-row-form">
+        <div id="rc-connect-container"></div> 
+        <script id='rc-connect' src='https://www.rentalcars.com/partners/integrations/connect/connect.js' data-container='rc-connect-container' data-preflang='en' data-enable-return-checkbox='true' data-affiliate-code='carhirecl115' data-primary='FF8B69' data-button-radius='0' data-button-size='large' data-text='5F5F5F'></script>  
       </div>
     </div>
   </div>
