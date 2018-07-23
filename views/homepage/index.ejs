@@ -6,8 +6,8 @@
   <title>cahire.club</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/layout.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Droid Sans:400,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -17,7 +17,9 @@
 </head>
 <body class="body">
   <nav class="nav">
-    <div class="nav-logo"><img src="images/logo_transparent_background.png" srcset="images/logo_transparent_background-p-500.png 500w, images/logo_transparent_background-p-800.png 800w, images/logo_transparent_background-p-1080.png 1080w, images/logo_transparent_background-p-1600.png 1600w, images/logo_transparent_background-p-2000.png 2000w, images/logo_transparent_background-p-2600.png 2600w, images/logo_transparent_background-p-3200.png 3200w, images/logo_transparent_background.png 3400w" sizes="(max-width: 479px) 70vw, 221.3125px" class="nav-logo-img"></div>
+    <div class="nav-logo">
+      <img src="images/logo_transparent_background.png" class="nav-logo-img">
+    </div>
     <div class="nav-links"><a href="#form-car-selection" class="nav-links-link">compare prices</a><a href="#links-section" class="nav-links-link">top destinations</a><a href="#links-section" class="nav-links-link">leading suppliers</a></div>
   </nav>
   <div class="header">
@@ -26,7 +28,7 @@
       <h2 class="header-text-container-h2">Car hire club compares 100&#x27;s of leading suppliers in 1000&#x27;s of locations</h2>
     </div>
     <div class="header-second-row">
-      <div class="header-second-row-form">
+      <div class="header-second-row-form" id="form-car-selection">
         <div id="rc-connect-container"></div> 
         <script id='rc-connect' src='https://www.rentalcars.com/partners/integrations/connect/connect.js' data-container='rc-connect-container' data-preflang='en' data-enable-return-checkbox='true' data-affiliate-code='carhirecl115' data-primary='FF8B69' data-button-radius='0' data-button-size='large' data-text='5F5F5F'></script>  
       </div>
@@ -71,15 +73,17 @@
       </div>
     </div>
     <div class="content-paragraph-container w-clearfix"><img src="images/car-carefree-chucks-51397.jpg" srcset="images/car-carefree-chucks-51397-p-1080.jpeg 1080w, images/car-carefree-chucks-51397-p-1600.jpeg 1600w, images/car-carefree-chucks-51397-p-2000.jpeg 2000w, images/car-carefree-chucks-51397.jpg 2165w" sizes="(max-width: 479px) 92vw, 350px" class="content-image-2">
-      <p class="content-paragrah"><strong class="bold-text">Enjoy car hire peace of mind</strong><br><br>Working with leading suppliers in over 20,000 destinations means we&#x27;re able to secure the best rates and availability, meaning you have the car you need at the best price. We don&#x27;t add any booking or credit card fees to your rental and give free cancellation and amendments, just to make it that little bit easier should you need to make any changes to your booking.<br><br>Our car hire deals offer flexible pick-up and drop-off options. Vehicles can be returned to a different drop-off location when you’re done for convenience.<br><br>Simply tell us where and when you need your hire car, select the vehicle and supplier and we&#x27;ll take care of the rest.<br></p>
+      <p class="content-paragrah"><strong class="bold-text">Enjoy car hire peace of mind</strong><br><br>Working with leading suppliers in over 20,000 destinations means we&#x27;re able to secure the best rates and availability, meaning you have the car you need at the best price. We don&#x27;t add any booking or credit card fees to your rental and give free cancellation and amendments, just to make it that little bit easier should you need to make any changes to your booking.<br><br>Our car hire deals offer flexible pick-up and drop-off options. Vehicles can be returned to a different drop-off location when you’re done for convenience.</p>
     </div>
     <div class="cta-section w-clearfix">
       <div class="cta-copy-container">
         <div class="cta-copy">Compare car hire prices &amp; book now</div>
       </div>
-      <div class="cta-button-style">
-        <div>Search</div>
-      </div>
+      <a href="#form-car-selection">
+        <div class="cta-button-style">
+          <div>Search</div>
+        </div>
+      </a>
     </div>
     <div class="faq-section">
       <div class="faq-section-item">
@@ -143,9 +147,11 @@
       <div class="cta-copy-container">
         <div class="cta-copy">Check car hire rates and availability</div>
       </div>
-      <div class="cta-button-style">
-        <div>Search</div>
-      </div>
+      <a href="#form-car-selection">
+        <div class="cta-button-style">
+          <div>Search</div>
+        </div>
+      </a>
     </div>
     <div id="links-section" class="links-section">
       <div class="link-column">
@@ -175,8 +181,5 @@
       <div class="footer-copyright">Ⓒ 2018 Carhire.club</div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>

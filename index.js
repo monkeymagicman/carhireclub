@@ -9,9 +9,7 @@ var converter = new showdown.Converter();
 //prevents a total site outage should
 //contentful fail / go down
 var staticPaths = {
-    'path1': 'view1',
-    'path2': 'view2',
-    'path3': 'view3'
+    'path1': 'view1'
 }
 
 //create express app
