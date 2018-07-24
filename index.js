@@ -30,7 +30,7 @@ app.get('/', function (req, res) {
  //404 view
 app.get('/404', function (req, res) {
     res.status('404');
-    res.render('404/404');
+    res.render('404');
 })
 
 //get all non homepage url requests
